@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/png;base64,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" type="image/x-icon">
+    
+    <title>Pinterest</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="row1">
+            <div class="box">
+                <video autoplay loop muted>
+                    <source src="./video1.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="box box1"></div>
+            <div class="box box11"></div>
+            <div class="box box21"></div>
+            <div class="box box31"></div>
+            <div class="box box41"></div>
+            <div class="box box51"></div>
+            <div class="box box61"></div>
+            <div class="box box71"></div>
+        
+        </div>
+        <div class="row2">
+        
+            <div class="box box2"></div> 
+            <div class="box box12"></div>
+            <div class="box box22"></div>
+            <div class="box box32"></div>
+            
+            <div class="box">
+                <video autoplay loop muted>
+                    <source src="./video2.mp4" type="video/mp4">
+                </video>
+            </div>
+            
+            <div class="box box42"></div>
+            <div class="box box52"></div>
+            <div class="box box62"></div>
+            <div class="box box72"></div>
+        
+        </div>
+        <div class="row3">
+        
+            <div class="box box3"></div>
+            <div class="box box13"></div>
+            <div class="box box23"></div>
+            
+            <div class="box">
+                <video autoplay loop muted>
+                    <source src="./video3.mp4" type="video/mp4">
+                </video>
+            </div>
+            
+            <div class="box box33"></div>
+            <div class="box box43"></div>
+            <div class="box box53"></div>
+            <div class="box box73"></div>
+            <div class="box box63"></div>
+        
+        </div>
+        <div class="row4">
+        
+            <div class="box box4"></div>
+            <div class="box box24"></div>
+            <div class="box box14"></div>
+            <div class="box box34"></div>
+            <div class="box box44"></div>
+            
+            <div class="box">
+                <video autoplay loop muted>
+                    <source src="./video4.mp4" type="video/mp4">
+                </video>
+            </div>
+            
+            <div class="box box54"></div>
+            <div class="box box64"></div>
+            <div class="box box74"></div>
+        
+        </div>
+        <div class="row5">
+        
+            <div class="box box5"></div>
+            <div class="box box15"></div>
+            <div class="box box25"></div>
+            <div class="box box35"></div>
+            
+            <div class="box">
+                <video autoplay loop muted>
+                    <source src="./video5.mp4" type="video/mp4">
+                </video>
+            </div>
+            
+            <div class="box box45"></div>
+            <div class="box box55"></div>
+            <div class="box box65"></div>
+            <div class="box box75"></div>
+        
+        </div>
+        <div class="row6">
+            <div class="box">
+                <video autoplay loop muted>
+                    <source src="./video15.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="box box6"></div>
+            <div class="box box16"></div>
+            <div class="box box26"></div>
+            <div class="box box36"></div>
+            <div class="box box46"></div>
+            
+            <div class="box">
+                <video autoplay loop muted>
+                    <source src="./video6.mp4" type="video/mp4">
+                </video>
+            </div>
+            
+            <div class="box box56"></div>
+            <div class="box box66"></div>
+            <div class="box box76"></div>
+        
+        
+        </div>
+        <div class="row7">
+        
+            <div class="box box7"></div>
+            <div class="box box17"></div>
+            <div class="box box27"></div>
+            <div class="box">
+                <video autoplay loop muted>
+                    <source src="./video7.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="box box37"></div>
+            <div class="box box47"></div>
+            <div class="box box57"></div>
+            <div class="box">
+                <video autoplay loop muted>
+                    <source src="./video14.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="box box67"></div>
+            <div class="box box77"></div>
+        
+        
+        </div>
+        
+        <div class="row8">
+            <div class="box">
+                <video autoplay loop muted>
+                    <source src="./video8.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="box box8"></div>
+            <div class="box box18"></div>
+            <div class="box box28"></div>
+            <div class="box box38"></div>
+            <div class="box box48"></div>
+            <div class="box">
+                <video autoplay loop muted>
+                    <source src="./video13.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="box box58"></div>
+            <div class="box box68"></div>
+            <div class="box box78"></div>
+        
+        
+        </div>
+        
+        <div class="row9">
+        
+            <div class="box box9"></div>
+            <div class="box box19"></div>
+            <div class="box box29"></div>
+            <div class="box">
+                <video autoplay loop muted>
+                    <source src="./video12.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="box box39"></div>
+            <div class="box box49"></div>
+            <div class="box box59"></div>
+            <div class="box box69"></div>
+            <div class="box">
+                <video autoplay loop muted>
+                    <source src="./video9.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="box box79"></div>
+        
+        
+        </div>
+        
+        <div class="row10">
+        
+            <div class="box box10"></div>
+            <div class="box box20"></div>
+            <div class="box">
+                <video autoplay loop muted>
+                    <source src="./video10.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="box box30"></div>
+            <div class="box box40"></div>
+            <div class="box box50"></div>
+            <div class="box box60"></div>
+            <div class="box">
+                <video autoplay loop muted>
+                    <source src="./video11.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="box box70"></div>
+            <div class="box box80"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
